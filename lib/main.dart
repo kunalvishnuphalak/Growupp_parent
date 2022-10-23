@@ -6,13 +6,16 @@ import 'package:growupp_parent/3rd_screen.dart';
 import 'package:growupp_parent/Your_Child.dart';
 import 'package:growupp_parent/bottomnav.dart';
 import 'package:growupp_parent/dashboard.dart';
+import 'package:growupp_parent/level.dart';
+import 'package:growupp_parent/open_account.dart';
+// import 'package:growupp_parent/level_up.dart';
 import 'package:growupp_parent/parent_1.dart';
 import 'package:device_preview/device_preview.dart';
 
-void main() => runApp(DevicePreview(
-      enabled: !kReleaseMode,
-      builder: (context) => MyApp(),
-    ));
+// void main() => runApp(DevicePreview(
+//       enabled: !kReleaseMode,
+//       builder: (context) => MyApp(),
+//     ));
 
 // runApp(const MyApp(
 
@@ -39,7 +42,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: BottomNav(),
+      home: Account(),
     );
   }
 }
